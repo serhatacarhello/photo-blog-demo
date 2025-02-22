@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - PhotoBlog</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-content">
+        <div class="logo">
+          <img
+            src="https://cdn.jsdelivr.net/npm/lucide-static@0.344.0/icons/camera.svg"
+            alt="Camera Icon"
+          />
+          <span>PhotoBlog</span>
+        </div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html" class="active">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <h1>Contact Us</h1>
+      <div class="contact-container">
+        <div class="contact-form">
+          <h2>Get in Touch</h2>
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                placeholder="your@email.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                rows="4"
+                placeholder="Your message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+        <div class="contact-info">
+          <h2>Contact Information</h2>
+          <div class="info-item">
+            <img
+              src="https://cdn.jsdelivr.net/npm/lucide-static@0.344.0/icons/mail.svg"
+              alt="Email"
+            />
+            <span>cadiandanaturel@photoblog.com</span>
+          </div>
+          <div class="info-item">
+            <img
+              src="https://cdn.jsdelivr.net/npm/lucide-static@0.344.0/icons/phone.svg"
+              alt="Phone"
+            />
+            <span>+90 (544) 905 73 59</span>
+          </div>
+          <div class="info-item">
+            <img
+              src="https://cdn.jsdelivr.net/npm/lucide-static@0.344.0/icons/map-pin.svg"
+              alt="Location"
+            />
+            <span>123 Photography Street, Art City, AC 12345</span>
+          </div>
+          <img
+            src="https://images.unsplash.com/photo-1497366216548-37526070297c"
+            alt="Office location"
+            class="office-photo"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
